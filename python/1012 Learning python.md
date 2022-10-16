@@ -145,3 +145,85 @@ thislist.extend(thistuple)
 
 print(thislist) 
 
+# Python List/Array Methods
+# append() Method
+fruits = ["apple", "banana", "cherry"]
+
+fruits.append("orange")
+
+print(fruits)
+
+# clear() Method
+fruits = ["apple", "banana", "cherry"]
+
+fruits.clear()
+
+print(fruits)
+
+# copy() Method
+fruits = ["apple", "banana", "cherry"]
+
+x = fruits.copy()
+
+print(x)
+
+# count() Method
+fruits = ["apple", "banana", "cherry"]
+
+x = fruits.count("cherry")
+
+print(x)
+
+# extend() Method
+ruits = ['apple', 'banana', 'cherry']
+
+cars = ['Ford', 'BMW', 'Volvo']
+
+fruits.extend(cars)
+
+print(fruits)
+
+# index() Method
+fruits = ['apple', 'banana', 'cherry']
+
+x = fruits.index("cherry")
+
+print(x)
+
+# insert() Method
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.insert(2, "strawberry")
+
+print(fruits)
+
+# pop() Method
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.pop(2)
+
+print(fruits)
+
+# remove() Method
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.remove("banana")
+
+print(fruits)
+
+#  reverse() Method
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.reverse()
+
+print(fruits)
+
+# sort() Method
+cars = ['Ford', 'BMW', 'Volvo']
+
+cars.sort()
+
+print(cars)
+
+
+
